@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1282",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "f0161",
+      "unicode_decimal": 983393
+    },
+    {
+      "icon_id": "5835472",
+      "name": "目录",
+      "font_class": "mulu",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}

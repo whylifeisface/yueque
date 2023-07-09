@@ -1,0 +1,16 @@
+{
+  "name": "pure-meeting-compute-zars0",
+  "productName": "pure-meeting-compute-zars0",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main/main.js",
+  "version": "1.0.0",
+  "author": "lishifu",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "22.0.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

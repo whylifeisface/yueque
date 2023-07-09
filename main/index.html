@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="" xmlns="" xmlns="">
+
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta content="width=device-width,initial-scale=1," name="viewport"/>
+    <meta content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
+          http-equiv="Content-Security-Policy">
+    <link href="../styles.css" rel="stylesheet">
+    <link href="../font/font_x2wt95auzfc/iconfont.css" rel="stylesheet">
+    <link href="../font/font_3835294_evp0750xc/iconfont.css" rel="stylesheet">
+    <link href="../css/up.css" rel="stylesheet">
+    <link href="../font/font_kzaxxpb3tl/iconfont.css" rel="stylesheet">
+    <link href="../font/font_gwffbn06jwu/iconfont.css" rel="stylesheet">
+    <title>Hello World!</title>
+</head>
+
+<body>
+
+<div class="container">
+    <section class="pos_r" id="section_replace">
+        <div class="color aa">
+            <ul>
+                <li class="width pos_r" style="display: flex">
+                    <span>语雀</span>
+                    1 <span class="auto" id="space_ul_tri"> < </span>
+                    <div class=" pos_" id="space_ul">
+                        <p class="flex_class">
+                        <div>
+                            <i></i>
+                        </div>
+                        <div>
+                            <p>
+                                soup <i></i>
+                            </p>
+                            <p>
+                                普通用户,升级可享更多权益 <a href="" style="padding-left: 5px;">升级</a>
+                            </p>
+                        </div>
+                        <p class="hover_">
+                            <a href="">
+                                <i class="iconfont">
+                                    &#xe64a;
+                                </i>
+                                我的花园
+
+                            </a>
+                        </p>
+                        <p class="hover_">
+                            <a href="">
+                                <i class="iconfont">&#xe605;</i>
+                                <span class="displayFlex">
+                    <span>切换空间</span>
+                    <span class="iconfont auto">&#xe775;</span>
+                  </span>
+                            </a>
+                        </p>
+                        <p class="hover_">
+                            <a href="">
+                                <i class="iconfont">&#xf02b4;</i>
+                                创建空间
+                            </a>
+                        </p>
+                        <p class="hover_">
+                            <a href="">
+                                <i class="iconfont icon-settings"></i>
+
+                                账户设置
+                            </a>
+                        </p>
+                        <p class="hover_">
+                            <a href="">
+                                <i class="iconfont ">&#xe63b;</i>
+
+                                推出登录
+                            </a>
+
+                        </p>
+                    </div>
+
+                </li>
+                <!-- // add -->
+
+                <li class="iconfont width">
+                    <a href="">
+                    <span class="iconfont sous" onclick="showSearch">
+                        &#xe7b3;
+                        搜索
+                    </span>
+                        <span class="inline_Block pos_r" id="add_icon">
+                                &#xe767;
+                            <span class="pos_ab_center add_icon_width inVis" id="add_icon_toBeShow">
+                                <span>
+                                    小计
+                                </span>
+                                <span>
+                                    文档
+                                </span>
+                                <span>
+                                    表格
+                                </span>
+                                <span>
+                                    画板
+                                </span>
+                                <span>
+                                    知识库
+                                </span>
+                                <span>
+                                    从模板新建
+                                </span>
+                            </span>
+                        </span>
+
+
+                    </a>
+                </li>
+                <!-- // search -->
+                <li class="iconfont display_none">
+                    <a href="">
+                <span>
+                        &#xe7b3;
+
+                </span>
+
+                    </a>
+
+                </li>
+                <li class="rotate display_none">|</li>
+
+                <!-- // history -->
+                <li class="iconfont width">
+                    <a href="">
+                        <span>
+                        &#xe81d;
+                        </span>
+                        <span>
+                                开始
+                            </span>
+
+                    </a>
+                </li>
+                <!-- // pen -->
+                <li class="iconfont width">
+                    <a href="">
+                        <span>
+                        &#xe6e5;
+
+                        </span>
+                        <span>
+                            小记
+                        </span>
+                    </a>
+
+                </li>
+                <!-- //like -->
+                <li class="iconfont width">
+                    <a href="">
+                        &#xe8b9;
+                        <span>
+                            收藏
+                        </span>
+                    </a>
+
+                </li>
+                <li class="iconfont width">
+                    <a href="">
+                         <span>
+                        &#xe64a;
+
+                        </span>
+                        <span>逛逛</span>
+
+                    </a>
+
+                </li>
+                <li class="rotate display_none">|</li>
+
+                <!-- //book -->
+                <li class="iconfont display_none">
+                    <a href="">
+                        &#xe601;
+                    </a>
+                </li>
+                <li class="width">
+                    <span class="rotate"> > </span>
+                    知识库
+                    <span>
+                        >
+                    </span>
+                </li>
+                <!-- <li class="rotate">|</li> -->
+                <!-- // -->
+            </ul>
+            <ul class="b">
+                <li class="inVis" id="showSpace">
+                    1
+                    <div id="space">
+                        <p class="flex_class">
+                        <div>
+                            <i></i>
+                        </div>
+                        <div>
+                            <p>
+                                soup <i></i>
+                            </p>
+                            <p>
+                                普通用户,升级可享更多权益 <a href="" style="padding-left: 5px;">升级</a>
+                            </p>
+                        </div>
+                        <p class="hover_">
+                            <a href="">
+                                <i class="iconfont">
+                                    &#xe64a;
+                                </i>
+                                我的花园
+
+                            </a>
+                        </p>
+                        <p class="hover_">
+                            <a href="">
+                                <i class="iconfont">&#xe605;</i>
+                                <span class="displayFlex">
+                    <span>切换空间</span>
+                    <span class="iconfont auto">&#xe775;</span>
+                  </span>
+                            </a>
+                        </p>
+                        <p class="hover_">
+                            <a href="">
+                                <i class="iconfont">&#xf02b4;</i>
+                                创建空间
+                            </a>
+                        </p>
+                        <p class="hover_">
+                            <a href="">
+                                <i class="iconfont icon-settings"></i>
+
+                                账户设置
+                            </a>
+                        </p>
+                        <p class="hover_">
+                            <a href="">
+                                <i class="iconfont ">&#xe63b;</i>
+
+                                推出登录
+                            </a>
+
+                        </p>
+                    </div>
+
+                </li>
+                <li class="iconfont width" id="showMore">
+                    <div id="more">
+                        <h3>更多</h3>
+                        <div class="flex_class">
+                <span class="hover_">
+                  <i class="iconfont">&#xe61a;</i>
+                </span>
+                            <span class="hover_">
+                    <a class="block" href="">
+                      回收站
+                    </a>
+                    <a class="block" href="">
+                      找回删除的文档
+                    </a>
+                </span>
+                        </div>
+                        <div class="flex_class">
+                <span class="hover_">
+                  <i class="iconfont">&#xeb49;</i>
+                </span>
+                            <span class="hover_">
+                    <a class="block" href="">
+
+                      客户端下载
+                    </a>
+                    <a class="block" href="">
+                      使用移动段桌面端
+                    </a>
+                </span>
+                        </div>
+                        <hr style="padding-top: 10px; padding-bottom: 10px;">
+                        <div class="hover_">
+                            <a href="">
+                                产品计划
+                            </a>
+                        </div>
+                        <div class="hover_">
+                            <a href="">
+                                帮助
+                            </a>
+                        </div>
+                        <div class="hover_">
+                            <a href="">
+                                我要反馈
+                            </a>
+                        </div>
+                        <div class="hover_">
+                            <a href="">
+                                偏好设置
+                            </a>
+                        </div>
+                    </div>
+                    &#xe6b8;
+                    <span>更多</span>
+                </li>
+                <li class="iconfont" class="li_color_border width" style="padding: 6px; margin: 6px;">
+                    <span class="displayFlex" id="showUp">
+                       <span>
+                           &#xe6a9;
+                       </span>
+                        <span class="inline_Block" style="padding-left: 6px">
+                            免费权益生效中
+                        </span>
+                        <a class="auto" href="" style="color: greenyellow">升级</a>
+                    </span>
+                    <div class="vip" id="up">
+                        免费权益生效中<a class="level-up">升级</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <span class="hover pos__center p_replace inVis" id="pos__replace">
+            <i> > </i>
+        </span>
+    </section>
+    <section class="pos_r" id="section_center" style="border-right: 1px solid #cccccc">
+        <h3 class="marginTopBottom displayFlex">
+        <span>
+          <i class="iconfont">&#xf016f;</i>
+          默认知识库<i class="iconfont">&#xe669;</i>
+        </span>
+            <span class="auto pos_r">
+          <canvas height="20px" id="tutorial" width="20px"></canvas>
+                <span class="border_new_span posabo inVis" id="new">
+                    <span class="new_span_class">新建文档</span>
+                    <span class="new_span_class">新建表格</span>
+                    <span class="new_span_class" style="border-bottom: 1px solid #ccc">新建画板</span>
+                    <span class="new_span_class">从模板新建</span>
+                    <span class="new_span_class" style="border-bottom: 1px solid #ccc">导入</span>
+                    <span class="new_span_class">新建分组</span>
+                </span>
+            </span>
+        </h3>
+        <div class="marginTopBottom displayFlexColumn">
+            <div>
+                <div class="iconfont isActive inlineBlock" id="liebiao" style="position: relative">
+                    &#xf0161;
+                    <div class="bgbcw posabo inVis" id="liebiao_hidden">列表视图</div>
+                </div>
+                <div class="iconfont inlineBlock" id="mul" style="position: relative">
+                    &#xe60f;
+                    <div class="bgbcw posabo inVis" id="mul_hidden">目录视图</div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <hr>
+        <div class="" id="mulu">
+            <ul class="displayFlexColumn">
+                <li class="displayFlex pos_r">
+                    <span>android自定义view</span>
+                    <ul class="add_icon_ul inVis ">
+                        <li>新建文档</li>
+                        <li>新建表格</li>
+                        <li>新建画板</li>
+                        <li>从模板新建</li>
+                        <li style="border-bottom: 1px solid #Ccc">导入</li>
+                        <li>新建分组</li>
+                    </ul>
+                    <span class="iconfont auto inVis">&#xe767;</span>
+
+                </li>
+                <li class="displayFlex pos_r">
+                    <span>ListenableFuture</span>
+                    <ul class="add_icon_ul inVis">
+                        <li>新建文档</li>
+                        <li>新建表格</li>
+                        <li>新建画板</li>
+                        <li>从模板新建</li>
+                        <li style="border-bottom: 1px solid #Ccc">导入</li>
+                        <li>新建分组</li>
+                    </ul>
+                    <span class="iconfont auto inVis">&#xe767;</span>
+
+                </li>
+                <li class="displayFlex pos_r">
+                    <span>线程安全</span>
+                    <ul class="add_icon_ul inVis">
+                        <li>新建文档</li>
+                        <li>新建表格</li>
+                        <li>新建画板</li>
+                        <li>从模板新建</li>
+                        <li style="border-bottom: 1px solid #Ccc">导入</li>
+                        <li>新建分组</li>
+                    </ul>
+                    <span class="auto iconfont inVis">&#xe767;</span>
+                </li>
+                <li class="displayFlex pos_r">
+                    <span>Electron</span>
+                    <ul class="add_icon_ul inVis">
+                        <li>新建文档</li>
+                        <li>新建表格</li>
+                        <li>新建画板</li>
+                        <li>从模板新建</li>
+                        <li style="border-bottom: 1px solid #ccc">导入</li>
+                        <li>新建分组</li>
+                    </ul>
+                    <span class="auto iconfont inVis">&#xe767;</span>
+                </li>
+                <li class="displayFlex pos_r">
+                    <span>数据和文件存储概览</span>
+                    <ul class="add_icon_ul inVis">
+                        <li>新建文档</li>
+                        <li>新建表格</li>
+                        <li>新建画板</li>
+                        <li>从模板新建</li>
+                        <li style="border-bottom: 1px solid #ccc">导入</li>
+                        <li>新建分组</li>
+                    </ul>
+                    <span class="auto iconfont inVis">&#xe767;</span>
+                </li>
+                <li class="displayFlex pos_r">
+                    <span>后台任务</span>
+                    <ul class="add_icon_ul inVis">
+                        <li>新建文档</li>
+                        <li>新建表格</li>
+                        <li>新建画板</li>
+                        <li>从模板新建</li>
+                        <li style="border-bottom: 1px solid #ccc">导入</li>
+                        <li>新建分组</li>
+                    </ul>
+                    <span class="auto iconfont inVis">&#xe767;</span>
+                </li>
+                <li class="displayFlex pos_r">
+                    <span>mybatis plus</span>
+                    <ul class="add_icon_ul inVis">
+                        <li>新建文档</li>
+                        <li>新建表格</li>
+                        <li>新建画板</li>
+                        <li>从模板新建</li>
+                        <li style="border-bottom: 1px solid #ccc">导入</li>
+                        <li>新建分组</li>
+                    </ul>
+                    <span class="auto iconfont inVis">&#xe767;</span>
+                </li>
+                <li class="displayFlex pos_r">
+                    <span>redis</span>
+                    <ul class="add_icon_ul inVis">
+                        <li>新建文档</li>
+                        <li>新建表格</li>
+                        <li>新建画板</li>
+                        <li>从模板新建</li>
+                        <li style="border-bottom: 1px solid #ccc">导入</li>
+                        <li>新建分组</li>
+                    </ul>
+                    <span class="auto iconfont inVis">&#xe767;</span>
+                </li>
+                <li class="displayFlex pos_r">
+                    <span>音视频</span>
+                    <ul class="add_icon_ul inVis">
+                        <li>新建文档</li>
+                        <li>新建表格</li>
+                        <li>新建画板</li>
+                        <li>从模板新建</li>
+                        <li style="border-bottom: 1px solid #ccc">导入</li>
+                        <li>新建分组</li>
+                    </ul>
+                    <span class="auto iconfont inVis">&#xe767;</span>
+                </li>
+                <li class="displayFlex pos_r">
+                    <span>💡 1 分钟玩转语雀文档</span>
+                    <ul class="add_icon_ul inVis">
+                        <li>新建文档</li>
+                        <li>新建表格</li>
+                        <li>新建画板</li>
+                        <li>从模板新建</li>
+                        <li style="border-bottom: 1px solid #ccc">导入</li>
+                        <li>新建分组</li>
+                    </ul>
+                    <span class="auto iconfont inVis">&#xe767;</span></li>
+            </ul>
+        </div>
+        <span class="pos__center hover inVis" id="pos__center">
+            <i><</i>
+        </span>
+
+    </section>
+    <span class="pos__center hover" id="pos__div" style="display: inline-block">
+            <i><</i>
+    </span>
+    <div>
+        <h4 class="right_h4">开始</h4>
+        <div class=" right_top_div">
+            <div class="right_top displayFlex" id="right_top_div">
+                <i></i>
+                <span>
+                    <span>新建文档</span>
+                    <span>文档,表格,画板，数据表</span>
+                </span>
+                <i class="auto" style="rotation: 90deg"> > </i>
+
+                <div class="right_top_div_show" id="right_top_div_show">
+                    <div>小记</div>
+                    <div>文档</div>
+                    <div>表格</div>
+                    <div>画板</div>
+                </div>
+
+            </div>
+
+            <span class="right_top">
+                <i></i>
+                <span>
+                    <span>新建知识库</span>
+                    <span>使用知识库整理知识</span>
+                </span>
+            </span>
+
+            <span class="right_top">
+                <i></i>
+                <span>
+
+                    <span>模板中心</span>
+                    <span>从模板中获取灵感</span>
+
+                </span>
+            </span>
+        </div>
+        <div class="displayFlex">
+            <span class="right_middle_left">编辑过</span>
+            <span class="right_middle_left">浏览过</span>
+            <span class="right_middle_left">协作过</span>
+            <div class="auto">
+                    <span class="right_middle_right" id="type">
+                        类型
+                        <span id="typeToBeShow" class="type_to_be_show_container">
+                            <span>所有</span>
+                            <span>文档</span>
+                            <span>表格</span>
+                            <span>画板</span>
+                            <span>数据表</span>
+                        </span>
+                    </span>
+                    <span class="right_middle_right" id="belong">
+                        归属
+                        <span class="type_to_be_show_container" id="belong_to_be_show">
+                            <span>所有</span>
+                            <span>soup</span>
+                        </span>
+                    </span>
+                    <span class="right_middle_right" id="create">
+                        创建者
+                        <span class="type_to_be_show_container" id="create_to_be_show">
+                            <span>所有</span>
+                            <span>我的</span>
+
+                        </span>
+                    </span>
+                </div>
+        </div>
+        <ul id="right_bottom" class="right_bottom">
+
+        </ul>
+        <h1>Hello World!</h1>
+
+
+        We are using Node.js
+        <span id="node-version"></span>,
+        Chromium
+        <span id="chrome-version"></span>,
+        and Electron
+        <span id="electron-version"></span>.
+        <!-- You can also require other files to run in this process -->
+    </div>
+
+
+    <div class="search_div_show pos" id="search_show">
+        <div class="search_input">
+            <span class=iconfont>&#xe7b3;</span>
+            <label>
+                <input id="" placeholder="搜索文档()" type="text" value="">
+            </label>
+        </div>
+    </div>
+</div>
+
+
+<script src="../js/1.js"></script>
+<script src="../renderer.js"></script>
+</body>
+
+</html>

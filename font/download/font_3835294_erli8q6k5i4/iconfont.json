@@ -1,0 +1,58 @@
+{
+  "id": "3835294",
+  "name": "2022 12 21",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "252290",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e767",
+      "unicode_decimal": 59239
+    },
+    {
+      "icon_id": "749836",
+      "name": "iconfont-gangcai",
+      "font_class": "iconfontgangcai",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "2261659",
+      "name": "历史",
+      "font_class": "history",
+      "unicode": "e81d",
+      "unicode_decimal": 59421
+    },
+    {
+      "icon_id": "9866678",
+      "name": "book",
+      "font_class": "book",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "11372701",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e8b9",
+      "unicode_decimal": 59577
+    },
+    {
+      "icon_id": "12011697",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e7b3",
+      "unicode_decimal": 59315
+    },
+    {
+      "icon_id": "12592147",
+      "name": "羽毛笔",
+      "font_class": "yumaobi",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    }
+  ]
+}
